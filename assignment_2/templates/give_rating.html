@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Give rating</title>
+</head>
+<body>
+<form action="/home/" method="post">
+    <button type="submit">Go back</button>
+</form>
+<div>
+    <form action="/give_rating/">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="rating" placeholder="Rating" required>
+        <button>Give</button>
+    </form>
+</div>
+<div>
+    <br>
+    <h3>Name:{{.Name}}</h3>
+    <p>Price:{{.Price}}</p>
+    <p>Rating:{{.Rating}}</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "Items": [
+    {
+      "Name": "i1",
+      "Price": 12.4,
+      "Rating": 3.5
+    },
+    {
+      "Name": "i2",
+      "Price": 10,
+      "Rating": 5
+    },
+    {
+      "Name": "i3",
+      "Price": 9.8,
+      "Rating": 4.4
+    },
+    {
+      "Name": "i5",
+      "Price": 11.3,
+      "Rating": 1.1
+    },
+    {
+      "Name": "i4",
+      "Price": 15,
+      "Rating": 2.2
+    },
+    {
+      "Name": "APP",
+      "Price": 0,
+      "Rating": 0
+    }
+  ]
+}

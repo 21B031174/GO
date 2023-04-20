@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  app:
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - PGPORT=5436
+      - PGUSER=admin
+      - PGPASSWORD=admin
+      - PGDATABASE=bookst
+      - DB_URL=db:5436
+    restart: always
+    networks:
+      - my-network
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=db
+    ports:
+        - 5436:5436
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - my-network
+volumes:
+  postgres-data:
+
+networks:
+  my-network:
+    external: true

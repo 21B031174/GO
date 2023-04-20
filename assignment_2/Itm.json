@@ -1,0 +1,79 @@
+{
+  "Items": [
+    {
+      "Name": "i1",
+      "Price": 12.4,
+      "Rating": 3.5
+    },
+    {
+      "Name": "i2",
+      "Price": 10,
+      "Rating": 5
+    },
+    {
+      "Name": "i3",
+      "Price": 9.8,
+      "Rating": 4.4
+    },
+    {
+      "Name": "i5",
+      "Price": 11.3,
+      "Rating": 5
+    },
+    {
+      "Name": "i4",
+      "Price": 15,
+      "Rating": 2.2
+    },
+    {
+      "Name": "APP",
+      "Price": 0,
+      "Rating": 0
+    },
+    {
+      "Name": "item10",
+      "Price": 3,
+      "Rating": 4
+    },
+    {
+      "Name": "i9",
+      "Price": 6,
+      "Rating": 3
+    },
+    {
+      "Name": "i10",
+      "Price": 10.4,
+      "Rating": 4.5
+    },
+    {
+      "Name": "i1",
+      "Price": 0,
+      "Rating": 4.7
+    },
+    {
+      "Name": "item11",
+      "Price": 13.5,
+      "Rating": 1.7
+    },
+    {
+      "Name": "i1",
+      "Price": 11,
+      "Rating": 4.4
+    },
+    {
+      "Name": "apple",
+      "Price": 99,
+      "Rating": 2
+    },
+    {
+      "Name": "kkk",
+      "Price": 11,
+      "Rating": 1.1
+    },
+    {
+      "Name": "Арсен",
+      "Price": 650,
+      "Rating": 5
+    }
+  ]
+}
